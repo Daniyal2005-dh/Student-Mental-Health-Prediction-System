@@ -1,0 +1,172 @@
+{
+    "RandomForest": {
+        "accuracy": 0.475,
+        "precision": 0.4196625396346067,
+        "recall": 0.475,
+        "f1_score": 0.42564670752789563,
+        "confusion_matrix": [
+            [
+                96,
+                16,
+                12
+            ],
+            [
+                52,
+                11,
+                5
+            ],
+            [
+                31,
+                10,
+                7
+            ]
+        ],
+        "feature_importances": [
+            {
+                "feature": "Age",
+                "importance": 0.2138788722834101
+            },
+            {
+                "feature": "Choose your gender_Male",
+                "importance": 0.05247413511744953
+            },
+            {
+                "feature": "Choose your gender_Female",
+                "importance": 0.048962900683163876
+            },
+            {
+                "feature": "What is your CGPA?_3.00 - 3.49",
+                "importance": 0.045841662588229075
+            },
+            {
+                "feature": "What is your CGPA?_2.00 - 2.49",
+                "importance": 0.043774895388460675
+            },
+            {
+                "feature": "What is your CGPA?_2.50 - 2.99",
+                "importance": 0.043723801794368466
+            },
+            {
+                "feature": "Your current year of Study_year 4",
+                "importance": 0.04160560967803189
+            },
+            {
+                "feature": "What is your CGPA?_3.50 - 4.00",
+                "importance": 0.0402709702051768
+            },
+            {
+                "feature": "What is your course?_Laws",
+                "importance": 0.037120135991614435
+            },
+            {
+                "feature": "Your current year of Study_year 1",
+                "importance": 0.03707530754872857
+            },
+            {
+                "feature": "Your current year of Study_year 2",
+                "importance": 0.035580293077736795
+            },
+            {
+                "feature": "Your current year of Study_year 3",
+                "importance": 0.034386725580738006
+            }
+        ]
+    },
+    "SVM": {
+        "accuracy": 0.5,
+        "precision": 0.4110074955908289,
+        "recall": 0.5,
+        "f1_score": 0.3917492867626444,
+        "confusion_matrix": [
+            [
+                113,
+                8,
+                3
+            ],
+            [
+                62,
+                3,
+                3
+            ],
+            [
+                41,
+                3,
+                4
+            ]
+        ],
+        "feature_importances": []
+    },
+    "XGBoost": {
+        "accuracy": 0.4875,
+        "precision": 0.4460962866892942,
+        "recall": 0.4875,
+        "f1_score": 0.4528182253172466,
+        "confusion_matrix": [
+            [
+                93,
+                19,
+                12
+            ],
+            [
+                49,
+                12,
+                7
+            ],
+            [
+                25,
+                11,
+                12
+            ]
+        ],
+        "feature_importances": [
+            {
+                "feature": "What is your CGPA?_2.00 - 2.49",
+                "importance": 0.07280004769563675
+            },
+            {
+                "feature": "What is your course?_Laws",
+                "importance": 0.07268016785383224
+            },
+            {
+                "feature": "What is your course?_Medicine",
+                "importance": 0.0668308436870575
+            },
+            {
+                "feature": "Your current year of Study_year 4",
+                "importance": 0.05547376349568367
+            },
+            {
+                "feature": "Marital status_No",
+                "importance": 0.050166621804237366
+            },
+            {
+                "feature": "Your current year of Study_year 1",
+                "importance": 0.049801621586084366
+            },
+            {
+                "feature": "What is your course?_BIT",
+                "importance": 0.0483119823038578
+            },
+            {
+                "feature": "What is your course?_Psychology",
+                "importance": 0.045852553099393845
+            },
+            {
+                "feature": "What is your course?_Art & Design",
+                "importance": 0.044766612350940704
+            },
+            {
+                "feature": "What is your course?_Engineering",
+                "importance": 0.04259432479739189
+            },
+            {
+                "feature": "What is your CGPA?_2.50 - 2.99",
+                "importance": 0.041219476610422134
+            },
+            {
+                "feature": "What is your CGPA?_3.00 - 3.49",
+                "importance": 0.04118777811527252
+            }
+        ]
+    }
+}
